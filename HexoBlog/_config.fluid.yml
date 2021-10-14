@@ -57,11 +57,12 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      # style: "Github Gist"
+      style: "Monokai Sublime"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+      bg_color: true
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -427,7 +428,7 @@ index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   # banner_img: /img/default.png
-  banner_img: https://images7.alphacoders.com/911/911586.jpg
+  banner_img: /images/background.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
